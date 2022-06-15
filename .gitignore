@@ -102,3 +102,4 @@ local.properties
 ######################
 /log/**
 /target/**
+/angular/demo/.vscode/
