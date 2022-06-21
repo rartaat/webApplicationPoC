@@ -101,5 +101,3 @@ local.properties
 # Maven
 ######################
 /log/**
-/target/**
-/angular/demo/.vscode/
