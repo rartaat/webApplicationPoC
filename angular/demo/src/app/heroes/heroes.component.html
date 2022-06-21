@@ -1,0 +1,22 @@
+<div class="card my-5">
+  <div class="card-body">
+    <div>
+      <label for="name">Hero name: </label>
+      <input id="name" [(ngModel)]="hero.name" placeholder="name">
+    </div>
+    <table class="table table-bordered table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ hero.id }}</td>
+          <td>{{ hero.name }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
